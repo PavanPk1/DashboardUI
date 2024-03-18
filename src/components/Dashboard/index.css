@@ -1,0 +1,172 @@
+.dashboardContainer {
+  padding: 25px;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: azure;
+}
+.leftbar {
+  width: 20%;
+  border-radius: 30px;
+  background-color: #000000;
+  padding: 25px;
+}
+@media (max-width: 1000px) {
+  .leftbar {
+    display: none;
+  }
+}
+.unorderedList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.title {
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.list {
+  margin: 50px 0;
+  font-family: Montserrat;
+  font-size: 20px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.active {
+  font-weight: 700;
+  color: aqua;
+}
+.icon {
+  margin-right: 10px;
+}
+.dashboard {
+  width: 75%;
+  padding: 25px;
+  overflow: auto;
+}
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.operations {
+  display: flex;
+  align-items: center;
+  width: 35%;
+  justify-content: space-around;
+}
+.dashboard-title {
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 30px;
+  color: #000000;
+}
+.searchContainer {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+  padding: 0 10px;
+  background-color: #ffffff;
+}
+.searchIcon {
+  color: aqua;
+}
+.img {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+}
+.profile-bell{
+  display: flex;
+  align-items: center;
+  width: 100px;
+}
+.search {
+  height: 35px;
+  padding: 5px;
+  margin-right: 10px;
+  color: #000000;
+  font-size: 16px;
+  border-width: 0px;
+  outline: none;
+  border-radius: 10px;
+  background-color: transparent;
+  width: 120px;
+}
+@media screen and (max-width: 1000px) {
+  .dashboard {
+    width: 100%;
+  }
+  .container1 {
+    flex-direction: column;
+    height: 150px;
+  }
+  .operations {
+    width: 100%;
+  }
+  .img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  padding-left: 0;
+}
+.charts {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  width: 45%;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.chart-details-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.chart-title {
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 22px;
+  color: #000000;
+}
+.container4 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 256px;
+}
+@media screen and (max-width: 1000px) {
+  .container4 {
+    flex-direction: column;
+  }
+  .charts {
+    width: 100%;
+    margin: 20px 0;
+  }
+}
+
+.container3{
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.activites{
+  align-self: flex-start;
+}
